@@ -1,0 +1,5 @@
+{
+        "key" : "smoke_granade",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_smoke_vial_0"
+}

@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_19",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_6",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_7",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_0",
+        ]
+}

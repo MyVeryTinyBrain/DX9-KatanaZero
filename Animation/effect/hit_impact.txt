@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_0",
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_1",
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_2",
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_3",
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_4",
+        	"../Texture/effect/used/hit_impact/spr_hit_impact_5",
+        ]
+}

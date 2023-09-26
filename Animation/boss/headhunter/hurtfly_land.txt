@@ -1,0 +1,20 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_3",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_4",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_5",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_6",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_7",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_8",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_9",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_afterhurt_0",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_afterhurt_1",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_afterhurt_2",
+	"../Texture/boss/headhunter/hurtground_land/spr_headhunter_hurt_afterhurt_3",
+        ]
+}

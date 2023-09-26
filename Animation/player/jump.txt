@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 5,
+        "sprites" :
+        [
+                "../Texture/player/used/jump/spr_jump_0",
+                "../Texture/player/used/jump/spr_jump_1",
+                "../Texture/player/used/jump/spr_jump_2",
+                "../Texture/player/used/jump/spr_jump_3",
+        ]
+}

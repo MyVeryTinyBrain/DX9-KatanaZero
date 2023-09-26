@@ -1,0 +1,5 @@
+{
+        "key" : "gangster",
+        "object_type" : "enemy_stand",
+        "sprite" : "../Texture/enemy/used/gangster/idle/spr_gangsteridle_0"
+}

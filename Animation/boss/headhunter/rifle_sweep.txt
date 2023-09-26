@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_0",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_1",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_2",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_3",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_4",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_5",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_6",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_7",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_8",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_9",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_10",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_11",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_12",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_13",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_14",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_15",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_16",			"../Texture/boss/headhunter/rifle_sweep/spr_headhunter_sweep_17",		
+        ]
+}

@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 5,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_0",
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_1",
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_2",
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_3",
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_4",
+        	"../Texture/enemy/used/pomp/melee/spr_pomp_attack_5",
+        ]
+}

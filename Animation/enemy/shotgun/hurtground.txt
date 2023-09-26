@@ -1,0 +1,23 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : -1,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_0",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_1",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_2",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_3",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_4",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_5",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_6",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_7",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_8",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_9",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_10",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_11",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_12",
+        	"../Texture/enemy/used/shotgun/hurtground/spr_shotgun_hurtground_13",
+        ]
+}

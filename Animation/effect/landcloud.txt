@@ -1,0 +1,16 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/landcloud/spr_landcloud_0",
+        	"../Texture/effect/used/landcloud/spr_landcloud_1",
+        	"../Texture/effect/used/landcloud/spr_landcloud_2",
+        	"../Texture/effect/used/landcloud/spr_landcloud_3",
+        	"../Texture/effect/used/landcloud/spr_landcloud_4",
+        	"../Texture/effect/used/landcloud/spr_landcloud_5",
+        	"../Texture/effect/used/landcloud/spr_landcloud_6",
+        ]
+}

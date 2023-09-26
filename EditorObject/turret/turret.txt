@@ -1,0 +1,5 @@
+{
+        "key" : "turret",
+        "object_type" : "turret",
+        "sprite" : "../Texture/object/used/turret_floor/spr_floor_turret_die_0"
+}

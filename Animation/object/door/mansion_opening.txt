@@ -1,0 +1,29 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_0",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_1",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_2",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_3",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_4",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_5",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_6",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_7",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_8",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_9",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_10",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_11",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_12",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_13",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_14",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_15",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_16",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_17",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_18",
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_19",
+        ]
+}

@@ -1,0 +1,5 @@
+{
+        "key" : "player",
+        "object_type" : "player",
+        "sprite" : "../Texture/player/used/idle/spr_idle_0"
+}

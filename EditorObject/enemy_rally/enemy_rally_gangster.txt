@@ -1,0 +1,5 @@
+{
+        "key" : "gangster",
+        "object_type" : "enemy_rally",
+        "sprite" : "../Texture/enemy/used/gangster/run/spr_gangsterrun_0"
+}

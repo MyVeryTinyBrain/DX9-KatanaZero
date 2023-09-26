@@ -1,0 +1,5 @@
+{
+        "key" : "bear_bottle",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_beer_bottle_2_0"
+}

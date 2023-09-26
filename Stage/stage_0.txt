@@ -1,0 +1,282 @@
+[
+	{
+		"adjust_x" : 0.0,
+		"adjust_y" : 0.10000000149011612,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture",
+		"order" : "front",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"adjust_x" : 0.0,
+		"adjust_y" : 0.10000000149011612,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture/map/chinatown-00-middle.png",
+		"order" : "middle",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"adjust_x" : 0.0,
+		"adjust_y" : 0.10000000149011612,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture/map/chinatown-00-back.png",
+		"order" : "back",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"base_x" : 0.0,
+		"base_y" : 0.10000000149011612,
+		"json_type" : "parallax",
+		"key" : "../Texture/map/chinatown-00-back-back.png",
+		"order" : "front",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"base_x" : 0.0,
+		"base_y" : 0.0,
+		"json_type" : "parallax",
+		"key" : "../Texture/",
+		"order" : "middle",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 1.0
+	},
+	{
+		"base_x" : 0.0,
+		"base_y" : 0.0,
+		"json_type" : "parallax",
+		"key" : "../Texture/",
+		"order" : "back",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 1.0
+	},
+	{
+		"height" : 507,
+		"json_type" : "camera_border",
+		"position_x" : -140.5,
+		"position_y" : 84.5,
+		"width" : 1189
+	},
+	{
+		"height" : 73,
+		"json_type" : "trigger",
+		"name" : "End",
+		"position_x" : 446.0,
+		"position_y" : -75.5,
+		"width" : 16
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 29,
+		"json_type" : "box_collider",
+		"position_x" : -520.0,
+		"position_y" : -126.5,
+		"width" : 432
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 48,
+		"json_type" : "left_triangle_collider",
+		"position_x" : -280.0,
+		"position_y" : -88.0,
+		"width" : 48
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -168.0,
+		"position_y" : -80.0,
+		"width" : 176
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : 8.0,
+		"position_y" : 48.0,
+		"width" : 176
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : 336.0,
+		"position_y" : -128.0,
+		"width" : 480
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 97,
+		"json_type" : "box_collider",
+		"position_x" : -752.0,
+		"position_y" : -64.5,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 416,
+		"json_type" : "box_collider",
+		"position_x" : -530.0,
+		"position_y" : 160.0,
+		"width" : 36
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -639.5,
+		"position_y" : 0.0,
+		"width" : 193
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 48,
+		"json_type" : "box_collider",
+		"position_x" : 31.5,
+		"position_y" : 344.0,
+		"width" : 1087
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 432,
+		"json_type" : "box_collider",
+		"position_x" : 531.0,
+		"position_y" : 104.0,
+		"width" : 154
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 176,
+		"json_type" : "box_collider",
+		"position_x" : 8.0,
+		"position_y" : -56.0,
+		"width" : 176
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : -196.5,
+		"position_y" : 16.0,
+		"width" : 107
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "player",
+		"object_type" : "player",
+		"position_x" : -704.0,
+		"position_y" : -94.0,
+		"sprite" : "../Texture/player/used/idle/spr_idle_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "door_door",
+		"object_type" : "door",
+		"position_x" : -534.0,
+		"position_y" : -80.0,
+		"sprite" : "../Texture/object/used/door/door/spr_door_animation_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "grunt",
+		"object_type" : "enemy_rally",
+		"position_x" : 9.0,
+		"position_y" : 85.0,
+		"rally" : true,
+		"rally_0_x" : 81.0,
+		"rally_0_y" : 74.0,
+		"rally_1_x" : -71.0,
+		"rally_1_y" : 71.0,
+		"sprite" : "../Texture/enemy/used/grunt/run/spr_grunt_run_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "soju_bottle",
+		"object_type" : "throw_object",
+		"position_x" : -213.0,
+		"position_y" : 24.0,
+		"sprite" : "../Texture/object/used/throw/spr_beer_bottle_3_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "explosive_bottle",
+		"object_type" : "throw_object",
+		"position_x" : 34.0,
+		"position_y" : 74.0,
+		"sprite" : "../Texture/object/used/throw/spr_explosive_vial_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "shieldcop",
+		"object_type" : "enemy_stand",
+		"position_x" : 153.0,
+		"position_y" : -92.0,
+		"rally" : false,
+		"rally_0_x" : 153.0,
+		"rally_0_y" : -92.0,
+		"rally_1_x" : 153.0,
+		"rally_1_y" : -92.0,
+		"sprite" : "../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "shotgun",
+		"object_type" : "enemy_stand",
+		"position_x" : 234.0,
+		"position_y" : -86.0,
+		"rally" : false,
+		"rally_0_x" : 234.0,
+		"rally_0_y" : -86.0,
+		"rally_1_x" : 234.0,
+		"rally_1_y" : -86.0,
+		"sprite" : "../Texture/enemy/used/shotgun/idle/spr_shotgun_idle_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "shotgun",
+		"object_type" : "enemy_stand",
+		"position_x" : 260.0,
+		"position_y" : -86.0,
+		"rally" : false,
+		"rally_0_x" : 260.0,
+		"rally_0_y" : -86.0,
+		"rally_1_x" : 260.0,
+		"rally_1_y" : -86.0,
+		"sprite" : "../Texture/enemy/used/shotgun/idle/spr_shotgun_idle_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "shotgun",
+		"object_type" : "enemy_stand",
+		"position_x" : -408.0,
+		"position_y" : -86.0,
+		"rally" : false,
+		"rally_0_x" : -408.0,
+		"rally_0_y" : -86.0,
+		"rally_1_x" : -408.0,
+		"rally_1_y" : -86.0,
+		"sprite" : "../Texture/enemy/used/shotgun/idle/spr_shotgun_idle_0.png"
+	}
+]

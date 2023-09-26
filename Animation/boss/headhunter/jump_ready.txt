@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/jump_begin/spr_headhunter_prejump_0",	"../Texture/boss/headhunter/jump_begin/spr_headhunter_prejump_1",	"../Texture/boss/headhunter/jump_begin/spr_headhunter_prejump_2",
+        ]
+}

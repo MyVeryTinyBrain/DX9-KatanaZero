@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{3be40262-e2be-49d9-b17d-3f524cb839cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{51bfcaa3-7be4-468e-9c26-939b557ca338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{94ca16b6-ae20-4a8a-9ab4-0684563e87b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonComponent">
+      <UniqueIdentifier>{3bfdddc2-e311-498a-8f29-471aa430e726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{dc55e026-12dd-4475-8060-40d34559ac98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{2361675b-cb40-4d09-934d-09cb5a96a40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{429fb9b6-1c15-484c-a84d-b3cb058b2cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{94cb2a51-0944-4f31-bde8-feb20cbf570b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\ShieldCop">
+      <UniqueIdentifier>{470aadf0-ffce-46bb-a8fb-626c5852bfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Grunt">
+      <UniqueIdentifier>{254229e0-2dd6-4f9e-9df6-2c9a369a21a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Pomp">
+      <UniqueIdentifier>{936fbf65-d016-4e9e-a03d-975d8ecf7886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Gangster">
+      <UniqueIdentifier>{adc866bb-5d5f-4e40-9867-e3e53a55d380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Shotgun">
+      <UniqueIdentifier>{fbdc0a01-79b9-444d-b129-93aeaa8eb7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{00283c4f-1aa7-4f2a-8d18-e702baf4283f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Trigger">
+      <UniqueIdentifier>{448c5146-2b4c-42d4-8047-01bce4ddfa3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss">
+      <UniqueIdentifier>{e6beca2e-219d-4d49-b5bd-9a6c6d36113f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss\Headhunter">
+      <UniqueIdentifier>{0f2f1c83-6293-4774-94a5-7c5a73f9c99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Type">
+      <UniqueIdentifier>{e5f11339-58bd-42b7-8e38-3a00a3919f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{351f67c0-f7fb-43c9-b204-2ef2b1484e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ThrowObject">
+      <UniqueIdentifier>{8ea5528e-e857-4c70-891a-ea1a486561fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{cdc8f1f4-490b-402d-911a-0fe0d057af30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainScene">
+      <UniqueIdentifier>{9b1f0368-3da4-4c68-a72e-2c2bb30bd27a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderOrder.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>CommonComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>CommonComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimator.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerBody.h">
+      <Filter>CommonComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabCreator.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTag.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGraph.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="StageGraphStruct.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMap.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAnimator.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordEffect.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShieldCop.h">
+      <Filter>Enemy\ShieldCop</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShieldCopAnimator.h">
+      <Filter>Enemy\ShieldCop</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGruntAnimator.h">
+      <Filter>Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGrunt.h">
+      <Filter>Enemy\Grunt</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDeadBody.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPompAnimator.h">
+      <Filter>Enemy\Pomp</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPomp.h">
+      <Filter>Enemy\Pomp</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGangster.h">
+      <Filter>Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGangsterAnimator.h">
+      <Filter>Enemy\Gangster</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShotgun.h">
+      <Filter>Enemy\Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShotgunAnimator.h">
+      <Filter>Enemy\Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxBackground.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSprite.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticBackground.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPusher.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FRect.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailRenderer.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeController.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>System\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="ITriggerCallback.h">
+      <Filter>System\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="HitLineEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Headhunter.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidedGround.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadHunterAnimator.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamLock.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageZone.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Granade.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportStaticBeam.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadhunterBeamPattern.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportRotateBeam.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordInfo.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordableRenderer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Recorder.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeEffectDirection.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="NextSceneTriggerCallback.h">
+      <Filter>System\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StageHeadhunter.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage0.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WallTurrets.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadhunterTurretPattern.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowObjectMode.h">
+      <Filter>Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowObject.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakablePlatform.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DownArrow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SojuBottle.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="KitchenKnife.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BearBottle.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeGranade.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosiveBottle.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bust.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>Object\ThrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosiveBarrel.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadhunterDie.h">
+      <Filter>Boss\Headhunter</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSceneScreen.h">
+      <Filter>MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="IRecorderbleRendererCallback.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EndArrow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>CommonComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>CommonComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimator.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerBody.cpp">
+      <Filter>CommonComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabCreator.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGraph.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="StageGraphStruct.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMap.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAnimator.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordEffect.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShieldCop.cpp">
+      <Filter>Enemy\ShieldCop</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShieldCopAnimator.cpp">
+      <Filter>Enemy\ShieldCop</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGrunt.cpp">
+      <Filter>Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGruntAnimator.cpp">
+      <Filter>Enemy\Grunt</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDeadBody.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPompAnimator.cpp">
+      <Filter>Enemy\Pomp</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPomp.cpp">
+      <Filter>Enemy\Pomp</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGangster.cpp">
+      <Filter>Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGangsterAnimator.cpp">
+      <Filter>Enemy\Gangster</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShotgun.cpp">
+      <Filter>Enemy\Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShotgunAnimator.cpp">
+      <Filter>Enemy\Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallaxBackground.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticSprite.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticBackground.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPusher.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FRect.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailRenderer.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeController.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>System\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="ITriggerCallback.cpp">
+      <Filter>System\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="HitLineEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Headhunter.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidedGround.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadHunterAnimator.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamLock.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageZone.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Granade.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportStaticBeam.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadhunterBeamPattern.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportRotateBeam.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordInfo.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Recorder.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordableRenderer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeEffectDirection.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="NextSceneTriggerCallback.cpp">
+      <Filter>System\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StageHeadhunter.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage0.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WallTurrets.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadhunterTurretPattern.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowObjectMode.cpp">
+      <Filter>Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowObject.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakablePlatform.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DownArrow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SojuBottle.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BearBottle.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="KitchenKnife.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeGranade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosiveBottle.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bust.cpp">
+      <Filter>Object\ThrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosiveBarrel.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadhunterDie.cpp">
+      <Filter>Boss\Headhunter</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSceneScreen.cpp">
+      <Filter>MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="IRecorderbleRendererCallback.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="EndArrow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="fmodexL.dll" />
+    <None Include="fmodex.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Math.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib" />
+  </ItemGroup>
+</Project>

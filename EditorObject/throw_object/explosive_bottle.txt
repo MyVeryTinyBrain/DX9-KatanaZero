@@ -1,0 +1,5 @@
+{
+        "key" : "explosive_bottle",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_explosive_vial_0"
+}

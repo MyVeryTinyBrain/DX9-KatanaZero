@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/player/used/hurtfly_loop/spr_hurtfly_loop_0",
+        	"../Texture/player/used/hurtfly_loop/spr_hurtfly_loop_1",
+        	"../Texture/player/used/hurtfly_loop/spr_hurtfly_loop_2",
+        	"../Texture/player/used/hurtfly_loop/spr_hurtfly_loop_3",
+        ]
+}

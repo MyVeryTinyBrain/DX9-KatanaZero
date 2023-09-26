@@ -1,0 +1,29 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_0",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_1",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_2",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_3",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_4",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_5",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_6",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_7",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_8",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_9",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_10",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_11",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_12",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_13",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_14",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_15",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_16",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_17",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_18",
+        	"../Texture/object/used/door/iron/spr_door_animation_iron_19",
+        ]
+}

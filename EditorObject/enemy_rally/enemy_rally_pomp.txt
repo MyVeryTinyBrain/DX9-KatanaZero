@@ -1,0 +1,5 @@
+{
+        "key" : "pomp",
+        "object_type" : "enemy_rally",
+        "sprite" : "../Texture/enemy/used/pomp/run/spr_pomp_run_0"
+}

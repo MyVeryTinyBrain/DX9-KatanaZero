@@ -1,0 +1,5 @@
+{
+        "key" : "explosive_barrel",
+        "object_type" : "explosive_barrel",
+        "sprite" : "../Texture/object/used/explosive_barrel/spr_explosive_barrel"
+}

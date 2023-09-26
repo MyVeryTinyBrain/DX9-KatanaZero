@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 8,
+        "sprites" :
+        [
+                "../Texture/player/used/fall/spr_fall_0",
+                "../Texture/player/used/fall/spr_fall_1",
+                "../Texture/player/used/fall/spr_fall_2",
+                "../Texture/player/used/fall/spr_fall_3",
+        ]
+}

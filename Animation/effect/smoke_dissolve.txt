@@ -1,0 +1,16 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_0",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_1",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_2",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_3",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_4",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_5",
+        	"../Texture/effect/used/smoke/spr_smoke_dissolve_6",
+        ]
+}

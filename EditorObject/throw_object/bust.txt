@@ -1,0 +1,5 @@
+{
+        "key" : "bust",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_bust_0"
+}

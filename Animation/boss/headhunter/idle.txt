@@ -1,0 +1,21 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_0",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_1",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_2",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_3",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_4",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_5",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_6",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_7",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_8",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_9",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_10",
+        	"../Texture/boss/headhunter/idle/spr_headhunter_idle_11",
+        ]
+}

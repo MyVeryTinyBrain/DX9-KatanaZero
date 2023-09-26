@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/player/used/walk/spr_walk_0",
+        	"../Texture/player/used/walk/spr_walk_1",
+        	"../Texture/player/used/walk/spr_walk_2",
+        	"../Texture/player/used/walk/spr_walk_3",
+        	"../Texture/player/used/walk/spr_walk_4",
+        	"../Texture/player/used/walk/spr_walk_5",
+        	"../Texture/player/used/walk/spr_walk_6",
+        	"../Texture/player/used/walk/spr_walk_7",
+        	"../Texture/player/used/walk/spr_walk_8",
+        	"../Texture/player/used/walk/spr_walk_9",
+        ]
+}

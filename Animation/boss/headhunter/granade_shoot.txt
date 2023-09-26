@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_0",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_1",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_2",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_3",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_4",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_5",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_6",	"../Texture/boss/headhunter/granade_shoot/spr_headhunter_shoot_7",
+        ]
+}

@@ -1,0 +1,5 @@
+{
+        "key" : "pomp",
+        "object_type" : "enemy_stand",
+        "sprite" : "../Texture/enemy/used/pomp/idle/spr_pomp_idle_0"
+}

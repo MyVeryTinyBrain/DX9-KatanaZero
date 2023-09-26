@@ -1,0 +1,23 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_0",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_1",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_2",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_3",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_4",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_5",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_6",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_7",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_8",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_9",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_10",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_11",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_12",
+        	"../Texture/enemy/used/gangster/hurtground/spr_gangsterhurtground_13",
+        ]
+}

@@ -1,0 +1,5 @@
+{
+        "key" : "teleport_door_iron",
+        "object_type" : "teleport_door",
+        "sprite" : "../Texture/object/used/teleport_door/teleport_door_iron"
+}

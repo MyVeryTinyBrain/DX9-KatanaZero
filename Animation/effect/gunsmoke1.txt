@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_0",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_1",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_2",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_3",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_4",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_5",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_6",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_7",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_8",
+        	"../Texture/effect/used/gunsmoke/gunsmoke_1/spr_gunsmoke2_9",
+        ]
+}

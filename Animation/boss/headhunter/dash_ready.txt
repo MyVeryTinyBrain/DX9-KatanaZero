@@ -1,0 +1,10 @@
+{
+        "interval" : 0.06,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_0",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_1",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_2",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_3",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_4",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_5",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_6",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_predash_7",	"../Texture/boss/headhunter/dash_begin/spr_headhunter_dashtrail",
+        ]
+}

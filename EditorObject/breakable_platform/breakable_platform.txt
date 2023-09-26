@@ -1,0 +1,5 @@
+{
+        "key" : "breakable_platform",
+        "object_type" : "breakable_platform",
+        "sprite" : "../Texture/object/used/platform/spr_platform"
+}

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{949f692a-50a0-4f44-934c-d7020bcd99b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{f3b138cb-6dbd-4165-b3a8-f0771231ac46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\Default">
+      <UniqueIdentifier>{ea903a9d-a304-4793-a236-5d47bd5fa0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\Dlg">
+      <UniqueIdentifier>{9d2f72a4-b44e-431f-8547-d14c7c0da2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{1ac59479-eeed-4a41-8725-ae635a6ad227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Sprite">
+      <UniqueIdentifier>{58f4b4f9-badb-49b4-99cd-c24b75ee51b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serialize">
+      <UniqueIdentifier>{61602e52-09f1-419c-bfb7-476270744e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable">
+      <UniqueIdentifier>{8e7bbe33-e506-4cd7-8fc7-00b00c525285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Parallax">
+      <UniqueIdentifier>{0eaf5694-1fd2-4b99-97b6-865f3d52c67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Object">
+      <UniqueIdentifier>{3ef7c6e1-272d-40d2-972f-747077cd4e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Object\Enemy">
+      <UniqueIdentifier>{28527246-b583-4739-9b9d-0bc632393097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Collider">
+      <UniqueIdentifier>{b9512a22-04c1-459c-9221-f9f2caeacb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Background">
+      <UniqueIdentifier>{8dc4ac92-ecb8-4a5f-9e3a-9f35b0661573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Object\TeleportDoor">
+      <UniqueIdentifier>{144e120b-86bd-4181-b03c-6c49606f9aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\CameraBorderBox">
+      <UniqueIdentifier>{51d53c0e-13a1-43d6-85d0-552692b70818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Serializable\Trigger">
+      <UniqueIdentifier>{61bc8d34-cfe8-4e0f-bd7c-6bc8d52e0c72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_stdafx.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_define.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBackground.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>MFC\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_main.h">
+      <Filter>MFC\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDoc.h">
+      <Filter>MFC\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorView.h">
+      <Filter>MFC\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFC\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorResourceLoader.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorScene.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformableRect.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCollider.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorBoxCollider.h">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorLeftTriangleCollider.h">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorLineCollider.h">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorRightTriangleCollider.h">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_types.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCollider.h">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Editor\Serializable\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallax.h">
+      <Filter>Editor\Serializable\Parallax</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_render_order.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgParallax.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorObject.h">
+      <Filter>Editor\Serializable\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSprite.h">
+      <Filter>Editor\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgObjectTool.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEnemy.h">
+      <Filter>Editor\Serializable\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Editor\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="IJsonConvert.h">
+      <Filter>Editor\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportDoor.h">
+      <Filter>Editor\Serializable\Object\TeleportDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBorderBox.h">
+      <Filter>Editor\Serializable\CameraBorderBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCameraBorderBox.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBox.h">
+      <Filter>Editor\Serializable\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTrigger.h">
+      <Filter>MFC\Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_stdafx.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBackground.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>MFC\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_main.cpp">
+      <Filter>MFC\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorDoc.cpp">
+      <Filter>MFC\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorView.cpp">
+      <Filter>MFC\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFC\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorResourceLoader.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformableRect.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCollider.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorBoxCollider.cpp">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorLeftTriangleCollider.cpp">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorLineCollider.cpp">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorRightTriangleCollider.cpp">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_types.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCollider.cpp">
+      <Filter>Editor\Serializable\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Editor\Serializable\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallax.cpp">
+      <Filter>Editor\Serializable\Parallax</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgParallax.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorObject.cpp">
+      <Filter>Editor\Serializable\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSprite.cpp">
+      <Filter>Editor\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgObjectTool.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorEnemy.cpp">
+      <Filter>Editor\Serializable\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Editor\Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="IJsonConvert.cpp">
+      <Filter>Editor\Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportDoor.cpp">
+      <Filter>Editor\Serializable\Object\TeleportDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraBorderBox.cpp">
+      <Filter>Editor\Serializable\CameraBorderBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCameraBorderBox.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBox.cpp">
+      <Filter>Editor\Serializable\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTrigger.cpp">
+      <Filter>MFC\Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Editor.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EditorDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Editor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Math.natvis" />
+  </ItemGroup>
+</Project>

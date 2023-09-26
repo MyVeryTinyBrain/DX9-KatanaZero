@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_0",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_1",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_2",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_3",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_4",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_5",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_6",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_7",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_8",		"../Texture/boss/headhunter/dash_end/spr_headhunter_dash_end_ground_9",	
+        ]
+}

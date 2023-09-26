@@ -1,0 +1,5 @@
+{
+        "key" : "object name",
+        "object_type" : "enemy_rally",
+        "sprite" : "../Texture/template"
+}

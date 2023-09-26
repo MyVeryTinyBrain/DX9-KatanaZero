@@ -1,0 +1,17 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/ui/used/spr_pickuparrow_anim_0",
+        	"../Texture/ui/used/spr_pickuparrow_anim_1",
+        	"../Texture/ui/used/spr_pickuparrow_anim_2",
+        	"../Texture/ui/used/spr_pickuparrow_anim_3",
+        	"../Texture/ui/used/spr_pickuparrow_anim_4",
+        	"../Texture/ui/used/spr_pickuparrow_anim_5",
+        	"../Texture/ui/used/spr_pickuparrow_anim_6",
+        	"../Texture/ui/used/spr_pickuparrow_anim_7",
+        ]
+}

@@ -1,0 +1,10 @@
+{
+        "interval" : 0.03,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_0",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_1",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_2",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_3",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_4",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_5",	"../Texture/boss/headhunter/rifle_takeout/spr_headhunter_takeoutrifle_6",
+        ]
+}

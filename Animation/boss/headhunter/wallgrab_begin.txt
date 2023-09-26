@@ -1,0 +1,12 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/wallgrab/spr_headhunter_wall_idle_0",
+	"../Texture/boss/headhunter/wallgrab/spr_headhunter_wall_idle_1",
+	"../Texture/boss/headhunter/wallgrab/spr_headhunter_wall_idle_2",
+        ]
+}

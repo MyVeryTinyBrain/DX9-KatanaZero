@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/blood/blood_1/spr_blood_0",
+        	"../Texture/effect/used/blood/blood_1/spr_blood_1",
+        	"../Texture/effect/used/blood/blood_1/spr_blood_2",
+        	"../Texture/effect/used/blood/blood_1/spr_blood_3",
+        	"../Texture/effect/used/blood/blood_1/spr_blood_4",
+        	"../Texture/effect/used/blood/blood_1/spr_blood_5",
+        ]
+}

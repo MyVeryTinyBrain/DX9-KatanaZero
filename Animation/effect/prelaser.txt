@@ -1,0 +1,25 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/prelaser/spr_prelaser_0",
+        	"../Texture/effect/used/prelaser/spr_prelaser_1",
+        	"../Texture/effect/used/prelaser/spr_prelaser_2",
+        	"../Texture/effect/used/prelaser/spr_prelaser_3",
+        	"../Texture/effect/used/prelaser/spr_prelaser_3",
+        	"../Texture/effect/used/prelaser/spr_prelaser_3",
+        	"../Texture/effect/used/prelaser/spr_prelaser_3",
+        	"../Texture/effect/used/prelaser/spr_prelaser_4",
+        	"../Texture/effect/used/prelaser/spr_prelaser_5",
+        	"../Texture/effect/used/prelaser/spr_prelaser_6",
+        	"../Texture/effect/used/prelaser/spr_prelaser_7",
+        	"../Texture/effect/used/prelaser/spr_prelaser_8",
+        	"../Texture/effect/used/prelaser/spr_prelaser_9",
+        	"../Texture/effect/used/prelaser/spr_prelaser_10",
+        	"../Texture/effect/used/prelaser/spr_prelaser_11",
+        	"../Texture/effect/used/prelaser/spr_prelaser_12",
+        ]
+}

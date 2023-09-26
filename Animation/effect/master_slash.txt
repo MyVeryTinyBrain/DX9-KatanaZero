@@ -1,0 +1,14 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/master_slash/spr_master_slash_0",
+        	"../Texture/effect/used/master_slash/spr_master_slash_1",
+        	"../Texture/effect/used/master_slash/spr_master_slash_2",
+        	"../Texture/effect/used/master_slash/spr_master_slash_3",
+        	"../Texture/effect/used/master_slash/spr_master_slash_4",
+        ]
+}

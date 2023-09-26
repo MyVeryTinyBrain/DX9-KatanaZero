@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/gunspark1/spr_gunspark2_0",
+        	"../Texture/effect/used/gunspark1/spr_gunspark2_1",
+        	"../Texture/effect/used/gunspark1/spr_gunspark2_2",
+        	"../Texture/effect/used/gunspark1/spr_gunspark2_3",
+        ]
+}

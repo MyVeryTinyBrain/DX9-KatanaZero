@@ -1,0 +1,25 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 3,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_0",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_1",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_2",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_3",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_4",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_5",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_6",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_7",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_8",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_9",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_10",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_11",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_12",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_13",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_14",
+        	"../Texture/enemy/used/grunt/hurtground/spr_grunt_hurtground_15",
+        ]
+}

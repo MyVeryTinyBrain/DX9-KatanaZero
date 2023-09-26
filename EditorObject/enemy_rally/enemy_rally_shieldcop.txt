@@ -1,0 +1,5 @@
+{
+        "key" : "shieldcop",
+        "object_type" : "enemy_rally",
+        "sprite" : "../Texture/enemy/used/shieldcop/run/spr_shieldcop_run_0"
+}

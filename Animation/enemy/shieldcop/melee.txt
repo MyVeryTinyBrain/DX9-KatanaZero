@@ -1,0 +1,18 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 5,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_0",        	
+	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_1",
+        	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_2",
+        	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_3",
+        	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_4",
+	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_4",
+        	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_5",
+	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_5",
+	"../Texture/enemy/used/shieldcop/melee/spr_shieldcop_bash_5",
+        ]
+}

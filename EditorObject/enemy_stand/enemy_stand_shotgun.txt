@@ -1,0 +1,5 @@
+{
+        "key" : "shotgun",
+        "object_type" : "enemy_stand",
+        "sprite" : "../Texture/enemy/used/shotgun/idle/spr_shotgun_idle_0"
+}

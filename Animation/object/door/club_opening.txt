@@ -1,0 +1,29 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/club/spr_door_animation_club_0",
+        	"../Texture/object/used/door/club/spr_door_animation_club_1",
+        	"../Texture/object/used/door/club/spr_door_animation_club_2",
+        	"../Texture/object/used/door/club/spr_door_animation_club_3",
+        	"../Texture/object/used/door/club/spr_door_animation_club_4",
+        	"../Texture/object/used/door/club/spr_door_animation_club_5",
+        	"../Texture/object/used/door/club/spr_door_animation_club_6",
+        	"../Texture/object/used/door/club/spr_door_animation_club_7",
+        	"../Texture/object/used/door/club/spr_door_animation_club_8",
+        	"../Texture/object/used/door/club/spr_door_animation_club_9",
+        	"../Texture/object/used/door/club/spr_door_animation_club_10",
+        	"../Texture/object/used/door/club/spr_door_animation_club_11",
+        	"../Texture/object/used/door/club/spr_door_animation_club_12",
+        	"../Texture/object/used/door/club/spr_door_animation_club_13",
+        	"../Texture/object/used/door/club/spr_door_animation_club_14",
+        	"../Texture/object/used/door/club/spr_door_animation_club_15",
+        	"../Texture/object/used/door/club/spr_door_animation_club_16",
+        	"../Texture/object/used/door/club/spr_door_animation_club_17",
+        	"../Texture/object/used/door/club/spr_door_animation_club_18",
+        	"../Texture/object/used/door/club/spr_door_animation_club_19",
+        ]
+}

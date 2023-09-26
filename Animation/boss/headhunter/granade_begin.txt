@@ -1,0 +1,10 @@
+{
+        "interval" : 0.03,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_0",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_1",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_2",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_3",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_4",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_5",	"../Texture/boss/headhunter/granade_takeout/spr_headhunter_takeoutgun_6",
+        ]
+}

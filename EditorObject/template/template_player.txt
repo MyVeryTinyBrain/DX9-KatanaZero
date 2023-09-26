@@ -1,0 +1,5 @@
+{
+        "key" : "object name",
+        "object_type" : "player",
+        "sprite" : "../Texture/template"
+}

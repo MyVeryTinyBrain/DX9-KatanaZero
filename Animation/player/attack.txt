@@ -1,0 +1,16 @@
+{
+        "interval" : 0.03,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/player/used/attack/spr_attack_0",
+	"../Texture/player/used/attack/spr_attack_1",	
+	"../Texture/player/used/attack/spr_attack_2",	
+	"../Texture/player/used/attack/spr_attack_3",	
+	"../Texture/player/used/attack/spr_attack_4",	
+	"../Texture/player/used/attack/spr_attack_5",	
+	"../Texture/player/used/attack/spr_attack_6",
+        ]
+}

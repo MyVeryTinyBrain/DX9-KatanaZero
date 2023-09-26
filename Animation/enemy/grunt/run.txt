@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 3,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_0",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_1",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_2",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_3",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_4",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_5",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_6",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_7",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_8",
+        	"../Texture/enemy/used/grunt/run/spr_grunt_run_9",
+        ]
+}

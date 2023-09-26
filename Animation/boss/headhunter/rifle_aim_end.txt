@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_0",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_1",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_2",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_3",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_4",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_5",	"../Texture/boss/headhunter/rifle_putback/spr_headhunter_putbackrifle_6",
+        ]
+}

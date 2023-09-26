@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_0",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_1",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_2",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_3",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_4",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_5",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_6",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_7",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_8",
+        	"../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_9",
+        ]
+}

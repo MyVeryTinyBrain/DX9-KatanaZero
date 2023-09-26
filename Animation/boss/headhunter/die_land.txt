@@ -1,0 +1,17 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_0",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_1",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_2",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_3",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_4",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_5",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_6",
+	"../Texture/boss/headhunter/deadland/spr_headhunter_dieland_7",
+        ]
+}

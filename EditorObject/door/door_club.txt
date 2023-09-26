@@ -1,0 +1,5 @@
+{
+        "key" : "door_club",
+        "object_type" : "door",
+        "sprite" : "../Texture/object/used/door/club/spr_door_animation_club_0"
+}

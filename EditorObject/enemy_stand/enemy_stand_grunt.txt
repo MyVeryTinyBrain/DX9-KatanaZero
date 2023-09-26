@@ -1,0 +1,5 @@
+{
+        "key" : "grunt",
+        "object_type" : "enemy_stand",
+        "sprite" : "../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_0"
+}

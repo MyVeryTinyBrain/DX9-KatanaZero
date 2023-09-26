@@ -1,0 +1,23 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : -11,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_0",        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_1",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_2",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_3",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_4",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_5",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_6",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_7",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_8",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_9",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_10",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_11",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_12",
+        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_13",        	"../Texture/enemy/used/shieldcop/die/spr_shieldcop_tragedy_die_2_14",
+
+        ]
+}

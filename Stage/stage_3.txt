@@ -1,0 +1,574 @@
+[
+	{
+		"adjust_x" : -0.5,
+		"adjust_y" : 0.5,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture/map/chinatown-03-front.png",
+		"order" : "front",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"adjust_x" : -0.5,
+		"adjust_y" : 0.5,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture/map/chinatown-03-middle.png",
+		"order" : "middle",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"adjust_x" : -0.5,
+		"adjust_y" : 0.5,
+		"blue" : 0.0,
+		"green" : 0.0,
+		"json_type" : "background",
+		"key" : "../Texture/map/chinatown-03-back.png",
+		"order" : "back",
+		"red" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"base_x" : 0.0,
+		"base_y" : 0.0,
+		"json_type" : "parallax",
+		"key" : "../Texture/",
+		"order" : "front",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 1.0
+	},
+	{
+		"base_x" : 0.0,
+		"base_y" : 0.0,
+		"json_type" : "parallax",
+		"key" : "../Texture/",
+		"order" : "middle",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 1.0
+	},
+	{
+		"base_x" : -0.5,
+		"base_y" : 0.5,
+		"json_type" : "parallax",
+		"key" : "../Texture/map/chinatown-03-back-back.png",
+		"order" : "back",
+		"parallax_x" : 0.0,
+		"parallax_y" : 0.0,
+		"scale" : 0.5
+	},
+	{
+		"height" : 462,
+		"json_type" : "camera_border",
+		"position_x" : 12.5,
+		"position_y" : 39.0,
+		"width" : 1031
+	},
+	{
+		"height" : 113,
+		"json_type" : "trigger",
+		"name" : "End",
+		"position_x" : 508.5,
+		"position_y" : -103.5,
+		"width" : 39
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -472.5,
+		"position_y" : 112.0,
+		"width" : 79
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -192.5,
+		"position_y" : 112.0,
+		"width" : 319
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : -392.5,
+		"position_y" : 128.0,
+		"width" : 81
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : -0.5,
+		"position_y" : 128.0,
+		"width" : 65
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : 144.5,
+		"position_y" : 112.0,
+		"width" : 225
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "right_triangle_collider",
+		"position_x" : 272.5,
+		"position_y" : 112.0,
+		"width" : 31
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : 344.5,
+		"position_y" : 128.0,
+		"width" : 175
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 144,
+		"json_type" : "left_triangle_collider",
+		"position_x" : 360.0,
+		"position_y" : 56.0,
+		"width" : 144
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : 464.0,
+		"position_y" : 112.0,
+		"width" : 64
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 31,
+		"json_type" : "box_collider",
+		"position_x" : 176.0,
+		"position_y" : -31.5,
+		"width" : 224
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : 31.5,
+		"position_y" : -16.0,
+		"width" : 65
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 31,
+		"json_type" : "box_collider",
+		"position_x" : -49.0,
+		"position_y" : -31.5,
+		"width" : 96
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 31,
+		"json_type" : "left_triangle_collider",
+		"position_x" : -113.0,
+		"position_y" : -31.5,
+		"width" : 32
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -361.5,
+		"position_y" : -32.0,
+		"width" : 143
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 144,
+		"json_type" : "right_triangle_collider",
+		"position_x" : -217.5,
+		"position_y" : -88.0,
+		"width" : 145
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : 255.0,
+		"position_y" : -176.0,
+		"width" : 800
+	},
+	{
+		"collider_type" : "ground",
+		"height" : 32,
+		"json_type" : "line_collider",
+		"position_x" : -193.5,
+		"position_y" : -16.0,
+		"width" : 193
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 113,
+		"json_type" : "box_collider",
+		"position_x" : -528.0,
+		"position_y" : 184.5,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 48,
+		"json_type" : "box_collider",
+		"position_x" : -257.0,
+		"position_y" : 217.0,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 48,
+		"json_type" : "box_collider",
+		"position_x" : 95.0,
+		"position_y" : 217.0,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 113,
+		"json_type" : "box_collider",
+		"position_x" : 512.0,
+		"position_y" : 184.5,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 47,
+		"json_type" : "box_collider",
+		"position_x" : -49.0,
+		"position_y" : 72.5,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 48,
+		"json_type" : "box_collider",
+		"position_x" : 79.5,
+		"position_y" : -71.0,
+		"width" : 31
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 31,
+		"json_type" : "box_collider",
+		"position_x" : 471.5,
+		"position_y" : -31.5,
+		"width" : 367
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 113,
+		"json_type" : "box_collider",
+		"position_x" : 607.5,
+		"position_y" : -103.5,
+		"width" : 159
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 112,
+		"json_type" : "box_collider",
+		"position_x" : -449.0,
+		"position_y" : 40.0,
+		"width" : 32
+	},
+	{
+		"collider_type" : "wall",
+		"height" : 32,
+		"json_type" : "box_collider",
+		"position_x" : -8.0,
+		"position_y" : 257.0,
+		"width" : 1008
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "player",
+		"object_type" : "player",
+		"position_x" : -450.0,
+		"position_y" : 142.0,
+		"sprite" : "../Texture/player/used/idle/spr_idle_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "door_club",
+		"object_type" : "door",
+		"position_x" : -263.0,
+		"position_y" : 160.0,
+		"sprite" : "../Texture/object/used/door/club/spr_door_animation_club_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "door_club",
+		"object_type" : "door",
+		"position_x" : 89.0,
+		"position_y" : 160.0,
+		"sprite" : "../Texture/object/used/door/club/spr_door_animation_club_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "door_club",
+		"object_type" : "door",
+		"position_x" : -55.0,
+		"position_y" : 16.0,
+		"sprite" : "../Texture/object/used/door/club/spr_door_animation_club_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "door_club",
+		"object_type" : "door",
+		"position_x" : 72.0,
+		"position_y" : -127.0,
+		"sprite" : "../Texture/object/used/door/club/spr_door_animation_club_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : -418.0,
+		"position_y" : 125.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : -386.0,
+		"position_y" : 125.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : -367.0,
+		"position_y" : 125.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : -16.0,
+		"position_y" : 125.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : 16.0,
+		"position_y" : 125.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : 15.0,
+		"position_y" : -19.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "breakable_platform",
+		"object_type" : "breakable_platform",
+		"position_x" : 47.0,
+		"position_y" : -19.0,
+		"sprite" : "../Texture/object/used/platform/spr_platform.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "soju_bottle",
+		"object_type" : "throw_object",
+		"position_x" : 427.0,
+		"position_y" : 177.0,
+		"sprite" : "../Texture/object/used/throw/spr_beer_bottle_3_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "explosive_bottle",
+		"object_type" : "throw_object",
+		"position_x" : 191.0,
+		"position_y" : 36.0,
+		"sprite" : "../Texture/object/used/throw/spr_explosive_vial_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "kitchen_knife_right",
+		"object_type" : "throw_object",
+		"position_x" : -282.0,
+		"position_y" : 195.0,
+		"sprite" : "../Texture/object/used/throw/spr_butcher_knife_right.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "bust",
+		"object_type" : "throw_object",
+		"position_x" : -395.0,
+		"position_y" : -1.0,
+		"sprite" : "../Texture/object/used/throw/spr_bust_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "pomp",
+		"object_type" : "enemy_rally",
+		"position_x" : -69.0,
+		"position_y" : 149.0,
+		"rally" : true,
+		"rally_0_x" : -222.0,
+		"rally_0_y" : 138.0,
+		"rally_1_x" : 55.0,
+		"rally_1_y" : 137.0,
+		"sprite" : "../Texture/enemy/used/pomp/run/spr_pomp_run_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "gangster",
+		"object_type" : "enemy_rally",
+		"position_x" : -86.0,
+		"position_y" : -139.0,
+		"rally" : true,
+		"rally_0_x" : 242.0,
+		"rally_0_y" : -9.0,
+		"rally_1_x" : -111.0,
+		"rally_1_y" : -139.0,
+		"sprite" : "../Texture/enemy/used/gangster/run/spr_gangsterrun_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "shieldcop",
+		"object_type" : "enemy_rally",
+		"position_x" : -53.0,
+		"position_y" : -138.0,
+		"rally" : true,
+		"rally_0_x" : 241.0,
+		"rally_0_y" : -9.0,
+		"rally_1_x" : -110.0,
+		"rally_1_y" : -139.0,
+		"sprite" : "../Texture/enemy/used/shieldcop/run/spr_shieldcop_run_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "shotgun",
+		"object_type" : "enemy_rally",
+		"position_x" : -28.0,
+		"position_y" : -138.0,
+		"rally" : true,
+		"rally_0_x" : 241.0,
+		"rally_0_y" : -8.0,
+		"rally_1_x" : -111.0,
+		"rally_1_y" : -139.0,
+		"sprite" : "../Texture/enemy/used/shotgun/run/spr_shotgun_run_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "gangster",
+		"object_type" : "enemy_rally",
+		"position_x" : -230.0,
+		"position_y" : 6.0,
+		"rally" : true,
+		"rally_0_x" : -381.0,
+		"rally_0_y" : -7.0,
+		"rally_1_x" : -91.0,
+		"rally_1_y" : -8.0,
+		"sprite" : "../Texture/enemy/used/gangster/run/spr_gangsterrun_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "grunt",
+		"object_type" : "enemy_rally",
+		"position_x" : 98.0,
+		"position_y" : 5.0,
+		"rally" : true,
+		"rally_0_x" : 274.0,
+		"rally_0_y" : -8.0,
+		"rally_1_x" : -18.0,
+		"rally_1_y" : -9.0,
+		"sprite" : "../Texture/enemy/used/grunt/run/spr_grunt_run_0.png"
+	},
+	{
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "gangster",
+		"object_type" : "enemy_rally",
+		"position_x" : 196.0,
+		"position_y" : 3.0,
+		"rally" : true,
+		"rally_0_x" : 174.0,
+		"rally_0_y" : 136.0,
+		"rally_1_x" : 127.0,
+		"rally_1_y" : -9.0,
+		"sprite" : "../Texture/enemy/used/gangster/run/spr_gangsterrun_0.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "grunt",
+		"object_type" : "enemy_stand",
+		"position_x" : 35.0,
+		"position_y" : -141.0,
+		"rally" : false,
+		"rally_0_x" : 35.0,
+		"rally_0_y" : -141.0,
+		"rally_1_x" : 35.0,
+		"rally_1_y" : -141.0,
+		"sprite" : "../Texture/enemy/used/grunt/idle/spr_grunt_box_idle_0.png"
+	},
+	{
+		"door_0_x" : 23.0,
+		"door_0_y" : 8.0,
+		"door_1_x" : 23.0,
+		"door_1_y" : -136.0,
+		"horizontal_direction" : 1.0,
+		"json_type" : "object",
+		"key" : "teleport_door_club",
+		"object_type" : "teleport_door",
+		"position_x" : 26.799980163574219,
+		"position_y" : -88.599983215332031,
+		"sprite" : "../Texture/object/used/teleport_door/teleport_door_club.png"
+	},
+	{
+		"horizontal_direction" : -1.0,
+		"json_type" : "object",
+		"key" : "turret",
+		"object_type" : "turret",
+		"position_x" : 316.0,
+		"position_y" : -159.0,
+		"sprite" : "../Texture/object/used/turret_floor/spr_floor_turret_die_0.png"
+	}
+]

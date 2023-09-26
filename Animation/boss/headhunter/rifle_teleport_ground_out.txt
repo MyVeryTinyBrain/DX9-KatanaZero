@@ -1,0 +1,10 @@
+{
+        "interval" : 0.07,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/rifle_teleport_ground_out/spr_headhunter_teleport_ground_out_0",	"../Texture/boss/headhunter/rifle_teleport_ground_out/spr_headhunter_teleport_ground_out_1",	"../Texture/boss/headhunter/rifle_teleport_ground_out/spr_headhunter_teleport_ground_out_2",	"../Texture/boss/headhunter/rifle_teleport_ground_out/spr_headhunter_teleport_ground_out_3",
+        ]
+}

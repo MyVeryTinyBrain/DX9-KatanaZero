@@ -1,0 +1,18 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_0",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_1",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_2",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_3",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_4",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_5",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_6",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_7",
+        	"../Texture/player/used/hurtcover/spr_hurtrecover_8",
+        ]
+}

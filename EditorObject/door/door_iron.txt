@@ -1,0 +1,5 @@
+{
+        "key" : "door_iron",
+        "object_type" : "door",
+        "sprite" : "../Texture/object/used/door/iron/spr_door_animation_iron_0"
+}

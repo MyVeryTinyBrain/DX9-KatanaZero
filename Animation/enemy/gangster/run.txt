@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 3,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_0",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_1",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_2",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_3",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_4",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_5",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_6",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_7",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_8",
+        	"../Texture/enemy/used/gangster/run/spr_gangsterrun_9",
+        ]
+}

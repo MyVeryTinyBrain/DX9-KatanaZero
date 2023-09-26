@@ -1,0 +1,5 @@
+{
+        "key" : "kitchen_knife_up",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_butcher_knife_up"
+}

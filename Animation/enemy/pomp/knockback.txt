@@ -1,0 +1,32 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 5,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_0",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_1",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_2",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_3",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_4",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_5",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_6",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_7",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_8",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_9",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_10",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_11",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_12",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_13",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_14",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_15",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_16",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_17",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_18",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_19",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_20",
+       	"../Texture/enemy/used/pomp/knockdown/spr_pomp_knockdown_21",
+
+        ]
+}

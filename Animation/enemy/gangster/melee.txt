@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_0",
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_1",
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_2",
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_3",
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_4",
+        	"../Texture/enemy/used/gangster/melee/spr_gangsterwhip_5",
+        ]
+}

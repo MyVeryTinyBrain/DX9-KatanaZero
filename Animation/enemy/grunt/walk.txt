@@ -1,0 +1,19 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 3,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_0",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_1",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_2",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_3",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_4",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_5",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_6",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_7",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_8",
+        	"../Texture/enemy/used/grunt/walk/spr_grunt_walk_9",
+        ]
+}

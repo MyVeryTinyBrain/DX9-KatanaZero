@@ -1,0 +1,11 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/player/used/postcrouch/spr_postcrouch_0",
+        	"../Texture/player/used/postcrouch/spr_postcrouch_1",
+        ]
+}

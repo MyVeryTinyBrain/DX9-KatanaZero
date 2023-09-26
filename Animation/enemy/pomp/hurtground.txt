@@ -1,0 +1,24 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 4,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_0",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_1",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_2",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_3",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_4",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_5",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_6",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_7",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_8",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_9",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_10",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_11",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_12",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_13",
+        	"../Texture/enemy/used/pomp/hurtground/spr_pomp_hurtground_14",
+        ]
+}

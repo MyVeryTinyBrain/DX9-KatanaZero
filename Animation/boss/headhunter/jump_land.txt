@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/jump_land/spr_headhunter_walljump_land_0",
+	"../Texture/boss/headhunter/jump_land/spr_headhunter_walljump_land_1",
+	"../Texture/boss/headhunter/jump_land/spr_headhunter_walljump_land_2",
+	"../Texture/boss/headhunter/jump_land/spr_headhunter_walljump_land_3",
+        ]
+}

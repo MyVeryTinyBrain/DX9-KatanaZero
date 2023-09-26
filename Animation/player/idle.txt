@@ -1,0 +1,20 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+                "../Texture/player/used/idle/spr_idle_0",
+                "../Texture/player/used/idle/spr_idle_1",
+                "../Texture/player/used/idle/spr_idle_2",
+                "../Texture/player/used/idle/spr_idle_3",
+                "../Texture/player/used/idle/spr_idle_4",
+                "../Texture/player/used/idle/spr_idle_5",
+                "../Texture/player/used/idle/spr_idle_6",
+                "../Texture/player/used/idle/spr_idle_7",
+                "../Texture/player/used/idle/spr_idle_8",
+                "../Texture/player/used/idle/spr_idle_9",
+                "../Texture/player/used/idle/spr_idle_10",
+        ]
+}

@@ -1,0 +1,5 @@
+{
+        "key" : "headhunter",
+        "object_type" : "boss",
+        "sprite" : "../Texture/boss/headhunter/thumbnail/spr_headhunter_idle_0"
+}

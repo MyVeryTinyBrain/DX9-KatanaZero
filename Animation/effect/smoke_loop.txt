@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/smoke/spr_smoke_loop_0",
+        	"../Texture/effect/used/smoke/spr_smoke_loop_1",
+        	"../Texture/effect/used/smoke/spr_smoke_loop_2",
+        	"../Texture/effect/used/smoke/spr_smoke_loop_3",
+        	"../Texture/effect/used/smoke/spr_smoke_loop_4",
+        	"../Texture/effect/used/smoke/spr_smoke_loop_5",
+        ]
+}

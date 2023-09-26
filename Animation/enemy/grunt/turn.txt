@@ -1,0 +1,17 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_0",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_1",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_2",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_3",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_4",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_5",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_6",
+        	"../Texture/enemy/used/grunt/turn/spr_grunt_turn_7",
+        ]
+}

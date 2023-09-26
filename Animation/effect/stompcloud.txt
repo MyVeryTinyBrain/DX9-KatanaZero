@@ -1,0 +1,19 @@
+{
+        "interval" : 0.04,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_0",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_1",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_2",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_3",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_4",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_5",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_6",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_7",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_8",
+        	"../Texture/effect/used/stompcloud/spr_stompercloud2_9",
+        ]
+}

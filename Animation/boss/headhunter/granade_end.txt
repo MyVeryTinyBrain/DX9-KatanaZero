@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_1",	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_2",	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_3",	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_4",	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_5",	"../Texture/boss/headhunter/granade_putback/spr_headhunter_putbackgun_6",
+        ]
+}

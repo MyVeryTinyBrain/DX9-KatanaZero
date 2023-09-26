@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 2,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_0",
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_1",
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_2",
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_3",
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_4",
+        	"../Texture/enemy/used/shieldcop/idle/spr_shieldcop_idle_5",
+        ]
+}

@@ -1,0 +1,10 @@
+{
+        "interval" : 0.07,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_0",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_0",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_0",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_0",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_0",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_1",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_2",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_3",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_4",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_5",	"../Texture/boss/headhunter/walljump/spr_headhunter_walljump_6",
+        ]
+}

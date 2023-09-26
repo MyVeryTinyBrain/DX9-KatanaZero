@@ -1,0 +1,15 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 3,
+        "sprites" :
+        [
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_0",
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_1",
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_2",
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_3",
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_4",
+        	"../Texture/enemy/used/gangster/turn/spr_gangsterturn_5",
+        ]
+}

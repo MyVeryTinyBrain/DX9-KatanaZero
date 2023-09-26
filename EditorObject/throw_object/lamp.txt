@@ -1,0 +1,5 @@
+{
+        "key" : "lamp",
+        "object_type" : "throw_object",
+        "sprite" : "../Texture/object/used/throw/spr_lamp_0"
+}

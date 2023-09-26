@@ -1,0 +1,29 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/door/spr_door_animation_0",
+        	"../Texture/object/used/door/door/spr_door_animation_1",
+        	"../Texture/object/used/door/door/spr_door_animation_2",
+        	"../Texture/object/used/door/door/spr_door_animation_3",
+        	"../Texture/object/used/door/door/spr_door_animation_4",
+        	"../Texture/object/used/door/door/spr_door_animation_5",
+        	"../Texture/object/used/door/door/spr_door_animation_6",
+        	"../Texture/object/used/door/door/spr_door_animation_7",
+        	"../Texture/object/used/door/door/spr_door_animation_8",
+        	"../Texture/object/used/door/door/spr_door_animation_9",
+        	"../Texture/object/used/door/door/spr_door_animation_10",
+        	"../Texture/object/used/door/door/spr_door_animation_11",
+        	"../Texture/object/used/door/door/spr_door_animation_12",
+        	"../Texture/object/used/door/door/spr_door_animation_13",
+        	"../Texture/object/used/door/door/spr_door_animation_14",
+        	"../Texture/object/used/door/door/spr_door_animation_15",
+        	"../Texture/object/used/door/door/spr_door_animation_16",
+        	"../Texture/object/used/door/door/spr_door_animation_17",
+        	"../Texture/object/used/door/door/spr_door_animation_18",
+        	"../Texture/object/used/door/door/spr_door_animation_19",
+        ]
+}

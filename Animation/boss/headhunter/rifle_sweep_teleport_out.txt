@@ -1,0 +1,13 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+	"../Texture/boss/headhunter/rifle_sweep_teleport_out/spr_headhunter_teleport_out_sweep_0",	
+	"../Texture/boss/headhunter/rifle_sweep_teleport_out/spr_headhunter_teleport_out_sweep_1",		
+	"../Texture/boss/headhunter/rifle_sweep_teleport_out/spr_headhunter_teleport_out_sweep_2",		
+	"../Texture/boss/headhunter/rifle_sweep_teleport_out/spr_headhunter_teleport_out_sweep_3",		
+        ]
+}

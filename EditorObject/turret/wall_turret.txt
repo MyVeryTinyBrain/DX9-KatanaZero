@@ -1,0 +1,5 @@
+{
+        "key" : "wall_turret",
+        "object_type" : "wall_turret",
+        "sprite" : "../Texture/object/used/turret_wall/spr_bunker_turret_wall_open_33"
+}

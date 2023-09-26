@@ -1,0 +1,10 @@
+{
+        "interval" : 0.05,
+        "loop" : true,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/object/used/door/mansion/spr_door_animation_mansion_0",
+        ]
+}

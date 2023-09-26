@@ -1,0 +1,20 @@
+{
+        "interval" : 0.05,
+        "loop" : false,
+        "adjust_x" : 0,
+        "adjust_y" : 0,
+        "sprites" :
+        [
+        	"../Texture/effect/used/explosion/spr_explosion_1_0",
+        	"../Texture/effect/used/explosion/spr_explosion_1_1",
+        	"../Texture/effect/used/explosion/spr_explosion_1_2",
+        	"../Texture/effect/used/explosion/spr_explosion_1_3",
+        	"../Texture/effect/used/explosion/spr_explosion_1_4",
+        	"../Texture/effect/used/explosion/spr_explosion_1_5",
+        	"../Texture/effect/used/explosion/spr_explosion_1_6",
+        	"../Texture/effect/used/explosion/spr_explosion_1_7",
+        	"../Texture/effect/used/explosion/spr_explosion_1_8",
+        	"../Texture/effect/used/explosion/spr_explosion_1_9",
+        	"../Texture/effect/used/explosion/spr_explosion_1_10",
+        ]
+}
