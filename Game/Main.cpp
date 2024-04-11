@@ -30,7 +30,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     CSoundMgr::Get_Instance()->Initialize();
 
-    constexpr bool windowed = false;
+    constexpr bool windowed = true;
     WinLoop winLoop(windowed);
 
     SceneManager::ChangeScene(new MainScene);
