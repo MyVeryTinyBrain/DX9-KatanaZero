@@ -1,5 +1,6 @@
 ## Build
-https://github.com/MyVeryTinyBrain/DX9-KatanaZero/releases/tag/Build
+https://github.com/MyVeryTinyBrain/DX9-KatanaZero/releases/tag/Build  
+실행 파일: `Release/Game.exe`
 
 ## How to play
 
