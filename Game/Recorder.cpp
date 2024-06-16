@@ -106,7 +106,9 @@ void Recorder::Render()
 
     DrawBackgroundColor();
 
+    // 현재 재생중인 시간에 일치하는 카메라 정보를 이진탐색.
     float cameraKey = GetClosetKeyFromCameraRecords(m_cursor);
+    // 탐색한 카메라 정보를 사용해 카메라의 위치, 각도, 너비를 조정
     if (cameraKey != -1)
     {
         CameraRecordInfo* camInfo = m_cameraPosition[cameraKey];
@@ -116,18 +118,22 @@ void Recorder::Render()
         CCamera2D::GetInstance()->SetHeight(camInfo->height);
     }
 
+    // 현재 재생중인 시간에 일치하는 스프라이트 집합의 키를 이진탐색.
     float spriteKey = GetClosetKeyFromSpriteRecords(m_cursor);
     if (spriteKey != -1)
     {
+        // 현재 재생중인 시간에 일치하는 모든 스프라이트들을 그립니다.
         for (auto& value : m_spriteRecords[spriteKey])
         {
             DrawSprite(value);
         }
     }
 
+    // 현재 재생중인 시간에 일치하는 라인 렌더러 집합의 키를 이진탐색.
     float lineKey = GetClosetKeyFromLineRecords(m_cursor);
     if (lineKey != -1 && fabsf(lineKey - m_cursor) <= 0.1f)
     {
+        // 현재 재생중인 시간에 일치하는 모든 라인들을 그립니다.
         for (auto& value : m_lineRecords[lineKey])
         {
             DrawLine(value);
@@ -221,8 +227,9 @@ Recorder* Recorder::GetInstance()
 
 void Recorder::RecordSprite(const SpriteRecordInfo& info)
 {
+    // 리플레이 재생 중에는 동작하지 않습니다.
 	if (m_playing) return;
-
+    // 스프라이트 정보를 게임 재생 시간을 키로 설정해 저장합니다.
 	m_spriteRecords[m_elapsed].push_back(new SpriteRecordInfo(info));
 }
 

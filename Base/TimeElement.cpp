@@ -79,9 +79,11 @@ DeltaTimeElement::~DeltaTimeElement()
 DWORD DeltaTimeElement::Accumulate()
 {
 	LONGLONG currentTick = GetTick();
+	// 이 함수가 다시 호출되기까지 걸린 시간입니다.
 	LONGLONG elapsedTick = currentTick - m_prevTick;
 	m_prevTick = currentTick;
 	float elapsed = float(elapsedTick) / float(GetTickPerSecond());
+	// 시간을 누적합니다.
 	m_accumulated += elapsed;
 
 	if (m_accumulated >= m_interval)

@@ -195,6 +195,30 @@ void PathFinder::OnDestroy()
 		m_thread.join();
 }
 
+void PathFinder::Render() {
+	/* 경로 디버그 */
+
+	//for (int i = 0; i < (int)m_path.size() - 1; ++i) {
+	//	LineDevice* line = GraphicDevice::GetLineDevice();
+	//	Draw2DLineParameters p;
+	//	p.width = 1;
+	//	p.color = Color(0, 1, 0, 1);
+	//	p.inWorld = true;
+
+	//	line->Draw2DLine(m_path[i].position, m_path[i + 1].position, &p);
+	//}
+
+	//for (int i = 0; i < m_path.size(); ++i) {
+	//	LineDevice* line = GraphicDevice::GetLineDevice();
+	//	Draw2DLineParameters p;
+	//	p.width = 1;
+	//	p.color = Color(0, 1, 0, 1);
+	//	p.inWorld = true;
+
+	//	line->Draw2DCircle(m_path[i].position, 2.f, &p);
+	//}
+}
+
 void PathFinder::OnDestroySpriteRenderer(Object* object)
 {
 	RemoveAlphaManagedSpriteRenderer(static_cast<SpriteRenderer*>(object));
@@ -435,7 +459,7 @@ void PathFinder::ThreadWork()
 
 		std::vector<StageGraphPathNode> result;
 		StageMap::PathFind(GetBottom(), m_threadTarget, &result);
-
+		// 길 찾기 결과를 저장(이동)합니다.
 		m_mutex.lock();
 		{
 			m_threadPath = std::move(result);

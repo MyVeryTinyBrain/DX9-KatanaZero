@@ -104,15 +104,16 @@ TimeController* TimeController::GetInstance()
 void TimeController::SetScale(float scale)
 {
 	if (m_stop) return;
-
+	// 타임스케일이 변경되어야 하는 경우
 	if (scale != m_scale)
 	{
+		// 속도가 1.0에서 감소하는 경우, 슬로우모션 사운드를 재생합니다.
 		if (scale < 1.0f && m_scale >= 1.0f)
 			CSoundMgr::Get_Instance()->PlaySound(L"sound_slomo_engage.wav", CSoundMgr::CHANNELID::SLOWMOTION);
+		// 속도가 1.0미만에서 1.0이상으로 증가하는 경우, 슬로우모션 해제 사운드를 재생합니다.
 		else if (scale >= 1.0f && m_scale < 1.0f)
 			CSoundMgr::Get_Instance()->PlaySound(L"sound_slomo_disengage.wav", CSoundMgr::CHANNELID::SLOWMOTION);
 	}
-
 	m_scale = scale;
 }
 

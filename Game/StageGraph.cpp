@@ -171,6 +171,7 @@ void StageGraph::ConnectNearVertices(int typeMask)
 			float distance = Vec2::Distance(nodeI->position, nodeJ->position);
 			if (distance > DISTANCE_EPSILON) continue;
 
+			// 두 점(노드)을 연결합니다.
 			StageGraphEdge* edgeI2J = new StageGraphEdge(nodeI->type, nodeI, nodeJ, distance);
 			StageGraphEdge* edgeJ2I = new StageGraphEdge(nodeJ->type, nodeJ, nodeI, distance);
 			m_edges[nodeI].push_back(edgeI2J);
@@ -288,60 +289,46 @@ bool StageGraph::ReversedPathFind(StageGraphNode* from, StageGraphNode* to, std:
 		}
 	};
 
-	// std::map<CurrentNode*, ParentNode*> parent;
-	std::map<StageGraphNode*, StageGraphNode*> parent;
-	PriorityQueue<Vertex, VertexCompare> q;
-	parent[from] = nullptr;
-	q.push(Vertex(0, from));
-
 	float* distance = new float[m_nodes.size()];
 	std::fill(distance, distance + m_nodes.size(), FLT_MAX);
 	distance[from->index] = 0;
 
-	bool* visited = new bool[m_nodes.size()];
-	std::fill(visited, visited + m_nodes.size(), false);
+	std::map<StageGraphNode*, StageGraphNode*> parent;
+	parent[from] = nullptr;
 
 	bool success = false;
-	while (!q.empty())
+
+	PriorityQueue<Vertex, VertexCompare> q;
+	// 시작 노드를 큐에 추가합니다.
+	q.push(Vertex(0, from));
+	while (!q.empty() && !success)
 	{
+		// 우선순위 큐에서 가장 작은 거리를 가지는 노드를 꺼냅니다.
 		Vertex vertex = q.top();
 		q.pop();
-
-		if (visited[vertex.node->index]) continue;
-		visited[vertex.node->index] = true;
-
-		edge_vector_t& v = m_edges[vertex.node];
-
+		// 노드에 연결된 다른 노드들을 순회합니다.
 		for (auto& edge : m_edges[vertex.node])
 		{
 			float new_distance = distance[vertex.node->index] + edge->weight;
 
-			// 이 경로가 최단 경로이면
+			// 다른 노드까지의 경로가 최단 경로이면
 			if (new_distance < distance[edge->next->index])
 			{
-				// 여기까지 도달하게 되는 최단거리를 재설정합니다.
+				// 여 노드까지 도달하게 되는 최단거리를 재설정합니다.
 				distance[edge->next->index] = new_distance;
-				// 부모 노드를 업데이트합니다.
+				// 이 노드의 부모 노드를 업데이트합니다.
 				parent[edge->next] = edge->current;
-			}
-			else
-			{
-				continue;
+				// 이 노드를 큐에 저장합니다.
+				q.push(Vertex(distance[edge->next->index], edge->next));
 			}
 
 			// 목표 노드에 도달했으면
 			if (edge->next == to)
 			{
-				// while 루프를 중지하기 위해 우선순위 큐를 비웁니다.
-				// 이 for 루프를 탈출합니다.
 				// success 플래그를 변경시켜 목표 노드를 찾음을 알립니다.
-
 				success = true;
-				q.clear();
 				break;
 			}
-
-			q.push(Vertex(distance[edge->next->index], edge->next));
 		}
 	}
 
@@ -372,7 +359,6 @@ bool StageGraph::ReversedPathFind(StageGraphNode* from, StageGraphNode* to, std:
 	}
 
 	SAFE_DELETE_ARRAY(distance);
-	SAFE_DELETE_ARRAY(visited);
 
 	return success;
 }

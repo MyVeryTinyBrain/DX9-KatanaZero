@@ -19,33 +19,27 @@
 void Serializer::Serialize(const wstring& path)
 {
 	std::vector<Json::Value> values;
-
+	// Json 값으로 변환하는 함수
 	auto ToJson = [](IJsonConvert* from) -> Json::Value
 	{
 		Json::Value item = from->ToJson();
 		item["json_type"] = from->JsonType();
 		return item;
 	};
-
 	values.push_back(ToJson(EditorManager::GetInstance()->GetFrontBackground()));
 	values.push_back(ToJson(EditorManager::GetInstance()->GetMiddleBackground()));
 	values.push_back(ToJson(EditorManager::GetInstance()->GetBackBackground()));
-
 	values.push_back(ToJson(EditorManager::GetInstance()->GetFrontParallax()));
 	values.push_back(ToJson(EditorManager::GetInstance()->GetMiddleParallax()));
 	values.push_back(ToJson(EditorManager::GetInstance()->GetBackParallax()));
-
 	values.push_back(ToJson(EditorManager::GetInstance()->GetCameraBorderBox()));
-
 	for (auto& trigger : TriggerBox::triggers)
 		values.push_back(ToJson(trigger));
-
 	for (auto& collider : EditorCollider::colliders)
 		values.push_back(ToJson(collider));
-
 	for (auto& obj : EditorObject::objects)
 		values.push_back(ToJson(obj));
-
+	// 모든 Json 값을 자식으로 추가합니다.
 	Json::Value root;
 	for (size_t i = 0; i < values.size(); ++i)
 		root[int(i)] = values[i];

@@ -20,23 +20,31 @@ void TrailRenderer::Start()
 
 void TrailRenderer::Update()
 {
+	// 잔상의 진행 비율(삭제까지 남은 비율)
 	float percent = m_elapsed / m_duration;
+
+	// 색상을 비율에 따라 보간합니다.
 	Color color;
 	D3DXColorLerp(&color, &m_begColor, &m_endColor, percent);
 	m_renderer->SetColor(color);
 	
+	// 플래그가 활성화되어 있으면, 비율에 따라 크기를 점점 줄입니다.
 	if (m_useScale)
 	{
 		Vec2 scale = Vec2::Lerp(m_firstScale, Vec2::one() * 0.05f, percent);
 		m_renderer->GetTransform()->SetScale(scale);
 	}
 
-	if (percent > 1.0f)
+	// 진행 비율이 100% 이상이면 이 잔상 오브젝트를 삭제합니다.
+	if (percent >= 1.0f)
 	{
 		GetGameObject()->Destroy();
 	}
+
+	// 이 플래그가 활성화 되어 있으면, 게임의 속도에 영향을 받습니다.
 	if (m_useTimeScale)
 		m_elapsed += Time::GetDeltaTime();
+	// 이 플래그가 비활성화 되어 있으면, 게임의 속도에 영향을 받지 않습니다.
 	else 
 		m_elapsed += Time::GetUnscaledDeltaTime();
 }
@@ -76,13 +84,14 @@ TrailRenderer* TrailRenderer::Create(const Vec2& position, Sprite* sprite, int o
 
 void TrailRenderer::SetSprite(SpriteRenderer* renderer)
 {
+	// 생성한 잔상 스프라이트 렌더러에 원본 스프라이트 렌더러의 스프라이트를 설정합니다.
 	Sprite* rendererSprite = renderer->GetSprite();
 	if (!rendererSprite) return;
-
 	Sprite* newSprite = new Sprite(*rendererSprite);
 	m_renderer->SetSprite(newSprite);
 	m_renderer->SetRenderOrder(renderer->GetRenderOrder() - 1);
 
+	// 생성한 잔상 스프라이트 렌더러를 스프라이트 렌더러의 위치로 옮깁니다.
 	Transform* rt = renderer->GetTransform();
 	GetTransform()->SetTransform(rt->GetPosition(), rt->GetAngle(), rt->GetScale());
 }

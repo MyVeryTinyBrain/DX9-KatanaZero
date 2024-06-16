@@ -61,7 +61,7 @@ void StageMap::InsertStairCollider(TriangleCollider* collider)
 
 void StageMap::InsertDoorPair(Vec2 positionA, Vec2 positionB)
 {
-	//m_graph->CreateDoor(positionA, positionB);
+	// 문의 아래방향으로 레이캐스트해 문의 바닥 위치를 찾습니다.
 	RaycastResult res1, res2;
 	if (!Physics::Raycast(positionA + Vec2::up(), positionA + Vec2::down() * 1000, &res1, LAYER_GROUND | LAYER_PLATFORM)) return;
 	if (!Physics::Raycast(positionB + Vec2::up(), positionB + Vec2::down() * 1000, &res2, LAYER_GROUND | LAYER_PLATFORM)) return;
@@ -81,6 +81,7 @@ StageGraph* StageMap::GetGraph() const
 bool StageMap::PathFind(Vec2 from, Vec2 to, std::vector<StageGraphPathNode>* pPath)
 {
 	if (pPath) pPath->clear();
+	// 시작, 종료 위치에서 아래 방향으로 레이캐스트해 바닥 위치를 찾습니다.
 	RaycastResult res1, res2;
 	if (!Physics::Raycast(from + Vec2::up(), from + Vec2::down() * 1000, &res1, LAYER_GROUND | LAYER_PLATFORM)) return false;
 	if (!Physics::Raycast(to + Vec2::up(), to + Vec2::down() * 1000, &res2, LAYER_GROUND | LAYER_PLATFORM)) return false;

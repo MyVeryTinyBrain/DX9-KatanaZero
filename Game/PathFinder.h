@@ -10,6 +10,7 @@ class PathFinder : public Component
 	COMPONENT_OVERRIDE(FixedUpdate);
 	COMPONENT_OVERRIDE(Update);
 	COMPONENT_OVERRIDE(OnDestroy);
+	COMPONENT_OVERRIDE(Render);
 	PRIVATE void OnDestroySpriteRenderer(Object* object);
 
 	PUBLIC void SetTarget(Vec2 target);
